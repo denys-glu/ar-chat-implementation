@@ -8,7 +8,7 @@ var mainLoader = function (){
 	addCustomStyles();
 
 	/*Setting URL to chat file itself*/
-	var chatUrl = "vicidial_chat_customer_side_areon.php";
+	var chatUrl = "http://10.30.0.8/chat_customer/vicidial_chat_customer_side_areon.php";
 	document.getElementById("chat-window").setAttribute("data", chatUrl);
 
 	/*dragger function*/
